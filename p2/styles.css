@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+}
+.header {
+    padding: 10px 30px;
+    background: #f1f1f1;
+    display: flex;
+}
+.content {
+    display: flex;
+}
+.file-list {
+    width: 500px;
+    padding: 20px;
+}
+.file-list a {
+    display: block;
+    font-size: 22px;
+    color: #999;
+    text-decoration: none;
+}
+.file-list .dir-entry {
+    color: #000;
+    font-weight: bold;
+}
+fieldset {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background: #fff;
+    padding: 15px;
+    margin: 10px 5px;
+    height: 100px;
+    max-width: 400px;
+}
+.btn {
+    background: #fff;
+    border: 1px solid #999;
+    display: inline-block;
+    padding: 11px;
+}
+input {
+    padding: 10px;
+}
+p {
+    margin: 0 0 8px 0;
+}
+.upload-msg {
+    color: #aaa;
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+    margin-top: 5px;
+}
+.main-area img {
+    max-width: 500px;
+    display: block;
+}
+.main-area {
+    display: flex;
+    flex-direction: column;
+}
+.main-area fieldset {
+    max-width: 100%;
+    min-width: 500px;
+ }
+textarea {
+    margin: 40px 0;
+    min-width: 600px;
+    min-height: 400px;
+    display: block;
+}
+a.logout {
+    text-decoration: none;
+    font-size: 22px;
+    color: #555;
+    margin: 10px 0 0 26px;
+}
